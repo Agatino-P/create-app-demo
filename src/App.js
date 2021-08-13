@@ -13,11 +13,14 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save! to reload.
           </p>
-          <p>{users.map(u=><p>u<br/></p> )}</p>
+          <p>
+          {/*users.map(u=><p>u<br/></p>)*/}
+          {/*users.map(u=><div>{u}<br/></div>)*/}
+          {users.map(u=><div>{u}<br/></div>)}
+          </p>
+
                <p>
-                 1<br/>
-                 2
-                 3
+                 1<br/>2 <br/>3<br/>
                </p>
         <a
           className="App-link"
